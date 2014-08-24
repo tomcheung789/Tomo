@@ -1,0 +1,30 @@
+{ Copyright 2012-2014 Chong Cheung. All rights reserved.
+Use of this source code is governed by a BSD-style license
+that can be found in the LICENSE file. }
+unit TomoType;
+
+{$MODE OBJFPC} 
+
+interface
+
+uses
+{$IFDEF UNIX}{$IFDEF UseCThreads}
+cthreads,
+{$ENDIF}{$ENDIF}
+Classes, sysutils, fgl, Variants
+{ you can add units after this };
+
+const
+	CHANNEL_CLOSED = 'tomo_channel_closed';
+	CHANNEL_NOTAMEMBER = 'tomo_channel_not_a_member';
+
+type 
+	tomovar = Variant;
+	IntegerList = specialize TFPGList<integer>;
+	RealList = specialize TFPGList<real>;
+	TomovarList = specialize TFPGList<tomovar>;
+	ObjectList =  specialize TFPGList<TObject>;
+	
+implementation
+
+end.

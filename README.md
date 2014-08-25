@@ -4,11 +4,13 @@ My final year project at The Open University of Hong Kong. An experimental progr
 
 Features
 ====
+* Object-Oriented features
 * Familiar syntax
 * Built-in state machine syntax
 * Communicates between state machines
 * Event parallelization
 * Intuitive concurrency syntax
+* Indentation rules
 
 Compiler
 ====

@@ -17,9 +17,9 @@ It is written in pure Object Pascal with Plex and Pyacc. It is a source to sourc
 Requirements
 ====
 Tomo requires the following software to be installed:
->* [FreePascal Compiler](http://www.freepascal.org/)
->* Plex
->* Pyacc
+* [FreePascal Compiler](http://www.freepascal.org/)
+* Plex
+* Pyacc
 
 License
 ====

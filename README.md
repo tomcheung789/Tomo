@@ -2,7 +2,7 @@
 
 What's Tomo
 ====
-My final year project at The Open University of Hong Kong. An experimental programming language support state transition with good readability.
+My final year project at The Open University of Hong Kong. An experimental programming language support object state transition with good readability.
 
 Features
 ====
